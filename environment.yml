@@ -1,0 +1,32 @@
+# Xavier Bresson
+
+name: gnn_course
+
+
+channels:
+  
+  - pytorch # DL
+  - dglteam # GNN
+  - conda-forge # RL/numpy/scipy
+  - pyg # GNN
+
+dependencies:
+
+  # basic
+  - python=3.8
+  - numpy
+  - mkl
+  - jupyter
+  - ipython
+  - matplotlib
+  - scipy
+  - networkx
+  - scikit-learn
+  - pandas
+  - seaborn
+
+  # DL
+  - pytorch # DL
+  - torchvision # CV 
+  - dgl # DGL
+  - pyg # PyG
