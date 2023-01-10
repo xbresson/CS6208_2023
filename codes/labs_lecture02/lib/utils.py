@@ -2,7 +2,7 @@ import numpy as np
 import scipy.sparse
 from collections import defaultdict
 from scipy import stats
-import ncut
+import ncut 
 import sklearn.metrics.pairwise
 import time
 
