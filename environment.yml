@@ -1,7 +1,7 @@
 # Xavier Bresson
 # conda env create -f environment.yml
 # conda activate gnn_course
-# note: took 5min to solve the env... 
+# note: took 5min to solve the env
 
 name: gnn_course
 
