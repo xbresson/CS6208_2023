@@ -65,7 +65,7 @@ Select the notebook 'file.ipynb' and open it with Google Colab using Control Cli
    cd CS6208_2023
 
    # Install python libraries
-   conda env create -f environment_windows.yml
+   conda env create -f environment.yml
    conda activate gnn_course
 
    # Run the notebooks in Chrome

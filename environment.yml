@@ -1,13 +1,16 @@
 # Xavier Bresson
+# conda env create -f environment.yml
+# conda activate gnn_course
+# note: took 5min to solve the env... 
 
 name: gnn_course
 
 
 channels:
   
+  - conda-forge # numpy/scipy etc
   - pytorch # DL
   - dglteam # GNN
-  - conda-forge # RL/numpy/scipy
   - pyg # GNN
 
 dependencies:
