@@ -1,4 +1,4 @@
-# Xavier Bresson
+# Xavier Bresson, 16 Jan 2023
 # conda env create -f environment.yml
 # conda activate gnn_course
 # note: took 5min to solve the env
@@ -27,6 +27,10 @@ dependencies:
   - scikit-learn
   - pandas
   - seaborn
+
+  # non-DL
+  - pymetis
+  - python-louvain
 
   # DL
   - pytorch # DL
